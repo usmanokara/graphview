@@ -5,8 +5,8 @@ const double REPULSION_RATE = 0.5;
 const double REPULSION_PERCENTAGE = 0.4;
 const double ATTRACTION_RATE = 0.15;
 const double ATTRACTION_PERCENTAGE = 0.15;
-var int CLUSTER_PADDING = 15;
-var double EPSILON = 0.0001;
+ int CLUSTER_PADDING = 15;
+ double EPSILON = 0.0001;
 
 class FruchtermanReingoldAlgorithm implements Algorithm {
   Map<Node, Offset> displacement = {};
